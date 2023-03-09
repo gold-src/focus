@@ -130,10 +130,14 @@ body {
   z-index: 100;
 }
 
+.navbar-logo-link {
+  display: flex;
+  margin: 0 auto 0 15vw;
+}
+
 .navbar-logo {
   display: flex;
   width: 200px;
-  margin: 0 auto 0 15vw;
 }
 
 .navbar-btn {
@@ -204,13 +208,20 @@ body {
   margin-bottom: 20px;
 }
 
+.header-title-semi {
+  display: inline;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
 .header-title-color {
   background-color: #5b11c2;
   padding: 0 15px 0 5px;
 }
 
 .header-text {
-  display: flex;
+  display: inline;
   font-size: 22px;
   font-weight: 300;
   margin: 20px auto 20px 0;
@@ -475,6 +486,7 @@ body {
   color: #838383;
   font-weight: 200;
   margin: 10px 0;
+  text-decoration: none;
 }
 
 .bottom-legal {
@@ -500,7 +512,7 @@ body {
 }
 
 @media only screen and (max-width: 1000px) {
-  .navbar-logo {
+  .navbar-logo-link {
     margin-left: 10vw;
   }
 

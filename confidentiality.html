@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FOCUS - Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="src/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="src/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="src/favicon/favicon-16x16.png">
+  <link rel="manifest" href="src/favicon/site.webmanifest">
+  <link rel="mask-icon" href="src/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+  <div class="navbar">
+    <a class="navbar-logo-link" href="index.html#header">
+      <img class="navbar-logo" src="src/focus-logo.svg">
+    </a>
+    <a class="navbar-btn navbar-btn-selected" href="index.html#header">Accueil</a>
+    <a class="navbar-btn" href="index.html#shorts">Réalisations</a>
+    <a class="navbar-btn" href="index.html#insta">Marques & collab</a>
+    <a class="navbar-btn" href="recrutement.html">Recrutement</a>
+    <a class="navbar-hamburger-open" onclick="displayMenu()">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+    </a>
+    <a class="navbar-hamburger-close" style="display: none;" onclick="displayMenu()">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z"/></svg>
+    </a>
+    <a class="navbar-btn" href="contact.html">Contact</a>
+  </div>
+  <div class="navbar-mobile">
+    <a class="navbar-btn-mobile navbar-btn-mobile-selected" href="index.html#header">Accueil</a>
+    <a class="navbar-btn-mobile" href="index.html#shorts">Réalisations</a>
+    <a class="navbar-btn-mobile" href="index.html#insta">Marques & collab</a>
+    <a class="navbar-btn-mobile">Recrutement</a>
+    <a class="navbar-btn-mobile">Contact</a>
+  </div>
+  <div class="header" style="height: unset;" id="header">
+    <div class="header-bloc" style="margin-top: 200px;">
+      <h1 class="header-title">Politique de <span class="header-title-color">confidentialité</span></h1>
+      <p class="header-text">La présente politique s’applique à l’ensemble des services proposés sur le site Internet.<br>Cette politique est soumise à <a href="https://www.cnil.fr/fr/la-loi-informatique-et-libertes#Article40-1" target="_blank" style="color: #fff;">la loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés modifiée en 2004</a> (ci-après « loi Informatique et Libertés ») ainsi qu’ au <a href="http://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32016R0679" target="_blank" style="color: #fff;">Règlement européen relatif à la protection des données personnelles du 27 avril 2016.</a></p>
+      <p class="header-title-semi">Définitions</p>
+      <p class="header-text">« Responsable de traitement » Désigne la personne qui détermine les finalités et les moyens du traitement de données à caractère personnel.<br>« Données à caractère personnel » (ci-après « données personnelles ») Information qui permet de vous reconnaître en tant que personne. Votre nom de famille est une donnée personnelle. Votre numéro de téléphone, votre email, votre adresse IP sont des données personnelles.<br>« Traitement de données à caractère personnel » Opération ou ensemble d’opérations appliquées à des données personnelles (collecte, enregistrement, conservation, consultation etc.)</p>
+      <p class="header-title-semi">Qui collecte les données personnelles ?</p>
+      <p class="header-text">FOCUS, situé au 455 promenade des anglais, 06200 Nice, est responsable de l’ensemble des traitements de données à caractère personnel effectuées sur le site <a href="index.html" target="_blank" style="color: #fff;">http://wearefocus.co</a></p>
+      <p class="header-title-semi">Quelles sont les finalités de la collecte de vos données personnelles ?</p>
+      <p class="header-text">FOCUS s’engage à collecter, traiter ou conserver vos données personnelles pour des finalités déterminées, légitimes et pertinentes.<br>Vos données sont traitées pour la gestion de vos inscriptions à nos newsletters, notification par email.<br>A l’exception des opérations de prospection commerciale, FOCUS considère que l’ensemble des traitements ci-dessus sont nécessaires à l’exécution du contrat passé entre un Client et FOCUS (intérêt légitime).<br>Les opérations de prospection commerciale reposent sur votre consentement au traitement de vos données. Ainsi, lors de la création de votre compte sur le site, il vous est expressément demandé votre consentement:<br>- pour recevoir des informations de FOCUS<br>- pour recevoir la newsletter de FOCUS<br>Vous avez la faculté de retirer ce consentement à tout moment directement en cliquant sur le lien de désabonnement présent sur chacun des mails reçus ou en nous contactant.<br>Aussi , nous sommes susceptibles d’utiliser et de compiler les données à des fins de profilage. Le profilage correspond au traitement automatisé de vos données personnelles. Ces données sont utilisées pour évaluer, analyser et prédire vos préférences, vos intérêts et votre comportement. Nous utilisons ces données pour vous envoyer notre newsletter.</p>
+      <p class="header-title-semi">Quels sont vos droits et comment les exercer auprès de FOCUS ?</p>
+      <p class="header-text">Conformément à la loi Informatique et Libertés du 6 janvier 1978, vous disposez d’un droit d’accès, de rectification et d’opposition des données vous concernant. Vous pouvez exercer ces droits par e-mail ou par courrier à l’adresse suivante :<br>FOCUS<br>455 promenade des anglais,<br>06200, Nice, France<br>E-mail: <a href="mailto:contact@wearefocus.co" style="color: #fff;">contact@wearefocus.co</a></p>
+      <p class="header-text">FOCUS adressera une réponse dans un délai de 1 mois après la réception de la demande.<br>A compter du 25 mai 2018 et en application du règlement 2016/679 du 27 avril 2016, vous pourrez également exercer votre droit à la limitation du traitement, à l’effacement de vos données, à la portabilité des données et à ne pas faire l’objet d’une décision individuelle automatisée, y compris le profilage.<br>Dans un souci de confidentialité et de protection des données personnelles, une copie d’un titre d’identité signé devra être intégrée à la demande.<br>En cas de réponse insatisfaisante, vous avez la possibilité de saisir la CNIL.</p>
+      <p class="header-title-semi">Combien de temps vos données sont-elles conservées ?</p>
+      <p class="header-text">FOCUS a déterminé des règles précises concernant la durée de conservation des données à caractère personnel des utilisateurs.<br>Pour calculer la durée de conservation la plus pertinente, FOCUS distingue les prospects n’ayant jamais effectué d’achat auprès de FOCUS et de ses partenaires, des clients qui ont déjà effectué un achat.<br>Concernant les prospects, le point de départ de la durée de conservation constitue le dernier envoi de prospection pour lequel le prospect est susceptible d’être intéressé, c’est à dire qu’il a cliqué sur le lien afin de voir ce qui lui est proposé.<br>Concernant les clients, le point de départ de la durée de conservation constitue le dernier achat de celui-ci.</p>
+      <p class="header-title-semi">Que deviennent vos données après votre décès ?</p>
+      <p class="header-text">Conformément à l’article 40-1 de la loi Informatique et Libertés du 6 janvier 1978, vous pouvez nous transmettre vos directives relatives à la conservation, à l’effacement et à la communication de vos données personnelles après votre décès. Ces directives peuvent être générales ou particulières.<br>Pour nous transmettre vos directives, contactez-nous par email.</p>
+      <p class="header-title-semi">Qui sont les destinataires de vos données ?</p>
+      <p class="header-text">Vos données sont transmises à des partenaires de FOCUS qui peuvent traiter les données pour leur compte (ce sont des destinataires) ou uniquement pour le compte et selon les instructions de FOCUS (ce sont des sous-traitants).<br>Les destinataires des données sont:<br>- Les équipes de FOCUS, ses partenaires et ses prestataires.<br>- Les autorités de police dans le cadre des réquisitions judiciaires concernant la lutte contre la fraude.</p>
+      <p class="header-title-semi">FOCUS a-t-elle un délégué à la protection des données ?</p>
+      <p class="header-text">FOCUS a nommé un délégué à la protection des données en charge d’assister le responsable de traitement dans le respect du Règlement européen. Pour toutes questions relatives à la protection des données personnelles dans FOCUS, nous mettons à votre disposition une adresse de contact: contact@wearefocus.co</p>
+      <p class="header-title-semi">Vos données sont-elles envoyées en dehors de l’Union Européenne ?</p>
+      <p class="header-text">FOCUS est une entreprise internationale, et travaille avec des équipes et des prestataires situés en dehors de l’Union Européenne. Tous répondent aux exigences du Règlement Général pour la Protection des Données.<br>Vos données personnelles peuvent être transmises pour répondre aux finalités définies ci-dessus à des sociétés situées dans des pays hors de l’Union Européenne et qui ne présentent pas un niveau adéquat de protection des données personnelles.<br>Préalablement au transfert hors Union Européenne et conformément à la réglementation en vigueur, FOCUS met en œuvre toutes les procédures requises pour obtenir les garanties nécessaires à la sécurisation de tels transferts.</p>
+      <p class="header-title-semi">Comment FOCUS protège vos données ?</p>
+      <p class="header-text">FOCUS prend diverses mesures pour assurer la sécurité de vos données contre la perte, l’utilisation abusive, l’accès non autorisé, la divulgation, la modification ou la destruction. En particulier:<br>- L’accès aux bases de données est strictement réservé aux personnes habilitées à en prendre connaissance dans le cadre de leurs missions.<br>- Conformément à la loi Informatique et Libertés du 6 janvier 1978 et au Règlement européen, FOCUS s’est assuré que les sous-traitants s’engagent à respecter la sécurité et la confidentialité des données.<br>- Tous les employés de FOCUS sont sensibilisés à la protection des données personnelles au travers de formations, Newsletters et réunions d’équipe.</p>
+      <p class="header-title-semi">Modification</p>
+      <p class="header-text">FOCUS se réserve le droit de modifier à tout moment cette Politique de protection des données. En cas de modification substantielle telle que l’introduction d’une nouvelle finalité, FOCUS vous fournira au préalable des informations au sujet de cette autre finalité. Ceci afin de s’assurer que vous disposez d’un délai raisonnable pour exercer vos droits en vertu de la loi Informatique et Libertés du 6 janvier 1978 et du Règlement européen.<br>Nous vous encourageons néanmoins à consulter régulièrement la Politique afin de prendre connaissance des modalités de protection de vos informations personnelles prévues par FOCUS.</p>
+      <p class="header-text">Cette Politique a été mise à jour pour la dernière fois à la date indiquée ci-dessus.</p>
+      <p class="header-title-semi">Contact</p>
+      <p class="header-text">Pour toute question relative à notre Politique, vous pouvez nous contacter directement en vous adressant à <a href="mailto:contact@wearefocus.co" style="color: #fff;">contact@wearefocus.co</a> ou par courrier à 455 promenade des Anglais, 06200 Nice.</p>
+    </div>
+    <img class="header-wireframe" src="src/wireframe1.svg">
+  </div>
+  <div class="bottom">
+    <h4 class="bottom-title">WE STAY <span class="bottom-title-color">FOCUS</span></h4>
+    <p class="bottom-text">Nous proposons des vidéos publicitaires et du contenu qui captivent l'attention de votre audience.</p>
+    <p class="bottom-text">Nous travaillons en étroite collaboration avec nos clients pour créer des campagnes qui sont efficaces, qui engagent, et qui vous aident à atteindre vos objectifs de manière rapide et rentable.</p>
+    <div class="bottom-bloc">
+      <div class="bottom-bloc-column">
+        <h5 class="bottom-bloc-title">FOCUS</h5>
+        <p class="bottom-bloc-text">455 promenade des anglais</p>
+        <p class="bottom-bloc-text">06200 Nice</p>
+        <p class="bottom-bloc-text">robin@wearefocus.co</p>
+      </div>
+      <div class="bottom-bloc-column">
+        <h5 class="bottom-bloc-title">À propos</h5>
+        <a class="bottom-bloc-text" href="legal.html">Mentions légales</a>
+        <a class="bottom-bloc-text" href="confidentiality.html">Politique de confidentialité</a>
+      </div>
+    </div>
+    <div class="bottom-legal">
+      <p class="bottom-legal-text"><span class="bottom-legal-text-color">2023</span> - All rights reserved</p>
+    </div>
+  </div>
+  <script type ="text/javascript" src="shorts.js"></script>
+  <script type ="text/javascript" src="navbar.js"></script>
+</body>
+</html>

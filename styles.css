@@ -1,0 +1,606 @@
+/**
+ * @license
+ *
+ * Font Family: Clash Display
+ * Designed by: Indian Type Foundry
+ * URL: https://www.fontshare.com/fonts/clash-display
+ * © 2022 Indian Type Foundry
+ *
+ * Font Styles:
+ * Clash Display Variable(Variable font)
+ * Clash Display Extralight
+ * Clash Display Light
+ * Clash Display Regular
+ * Clash Display Medium
+ * Clash Display Semibold
+ * Clash Display Bold
+ *
+*/
+
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 700.0;
+*
+* available axes:
+
+* 'wght' (range from 200.0 to 700.0)
+
+*/
+
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url('fonts/ClashDisplay-Variable.woff2') format('woff2'),
+       url('fonts/ClashDisplay-Variable.woff') format('woff'),
+       url('fonts/ClashDisplay-Variable.ttf') format('truetype');
+       font-weight: 200 700;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url('fonts/ClashDisplay-Extralight.woff2') format('woff2'),
+       url('fonts/ClashDisplay-Extralight.woff') format('woff'),
+       url('fonts/ClashDisplay-Extralight.ttf') format('truetype');
+       font-weight: 200;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url('fonts/ClashDisplay-Light.woff2') format('woff2'),
+       url('fonts/ClashDisplay-Light.woff') format('woff'),
+       url('fonts/ClashDisplay-Light.ttf') format('truetype');
+       font-weight: 300;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url('fonts/ClashDisplay-Regular.woff2') format('woff2'),
+       url('fonts/ClashDisplay-Regular.woff') format('woff'),
+       url('fonts/ClashDisplay-Regular.ttf') format('truetype');
+       font-weight: 400;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url('fonts/ClashDisplay-Medium.woff2') format('woff2'),
+       url('fonts/ClashDisplay-Medium.woff') format('woff'),
+       url('fonts/ClashDisplay-Medium.ttf') format('truetype');
+       font-weight: 500;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url('fonts/ClashDisplay-Semibold.woff2') format('woff2'),
+       url('fonts/ClashDisplay-Semibold.woff') format('woff'),
+       url('fonts/ClashDisplay-Semibold.ttf') format('truetype');
+       font-weight: 600;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url('fonts/ClashDisplay-Bold.woff2') format('woff2'),
+       url('fonts/ClashDisplay-Bold.woff') format('woff'),
+       url('fonts/ClashDisplay-Bold.ttf') format('truetype');
+       font-weight: 700;
+       font-display: swap;
+       font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  font-family: Clashdisplay, sans-serif;
+  flex-direction: column;
+  background-color: #141414;
+  color: #fff;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  height: 100px;
+  flex-direction: row;
+  width: 100vw;
+  margin: 0;
+  justify-content: center;
+  background-color: #141414;
+  z-index: 100;
+}
+
+.navbar-logo {
+  display: flex;
+  width: 200px;
+  margin: 0 auto 0 15vw;
+}
+
+.navbar-btn {
+  display: flex;
+  margin: auto 20px;
+  text-align: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 200;
+  transition: 0.3s;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-btn:hover {
+  color: #5b11c2;
+  transition: 0.3s;
+}
+
+.navbar-btn:last-of-type {
+  margin-right: 15vw;
+}
+
+.navbar-btn-selected {
+  background-color: #fff;
+  border-radius: 24px;
+  color: #5b11c2;
+  padding: 5px 15px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.navbar-btn-selected:hover {
+  color: #fff;
+  background-color: #5b11c2;
+  transition: 0.3s;
+}
+
+.navbar-hamburger {
+  display: none;
+}
+
+.navbar-mobile {
+  display: none;
+}
+
+.header {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header-bloc {
+  display: flex;
+  z-index: 10;
+  flex-direction: column;
+  width: 40vw;
+  margin: auto auto auto 15vw;
+}
+
+.header-title {
+  display: inline;
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.header-title-color {
+  background-color: #5b11c2;
+  padding: 0 15px 0 5px;
+}
+
+.header-text {
+  display: flex;
+  font-size: 22px;
+  font-weight: 300;
+  margin: 20px auto 20px 0;
+}
+
+.header-btn {
+  display: flex;
+  background-color: #5b11c2;
+  padding: 10px;
+  margin-top: 20px;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+.header-wireframe {
+  display: flex;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  height: 100vh;
+  bottom: -200px;
+}
+
+.shorts {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.shorts-actions {
+  display: flex;
+  z-index: 10;
+  flex-direction: row;
+  margin: auto 15vw 0 15vw;
+}
+
+.shorts-actions-arrows {
+  display: flex;
+  flex-direction: column;
+  margin: auto 40px;
+}
+
+.shorts-actions-btn {
+  display: flex;
+  margin-bottom: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+  user-select: none;
+}
+
+.shorts-actions-btn:hover {
+  color: #5b11c2;
+  transition: 0.3s;
+}
+
+.shorts-title {
+  display: flex;
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.shorts-all {
+  display: flex;
+  z-index: 10;
+  flex-direction: row;
+  margin: 0 0 auto 0;
+  width: 100vw;
+  overflow-y: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+.shorts-all::-webkit-scrollbar {
+  display: none;
+}
+
+.shorts-video {
+  display: flex;
+  width: 300px;
+  margin-right: 50px;
+  cursor: pointer;
+  user-select: none;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.shorts-video:hover {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.shorts-video:first-of-type {
+  margin-left: 15vw;
+}
+
+.shorts-video:last-of-type {
+  margin-right: 15vw;
+}
+
+/* Hide Play button + controls on iOS */
+.shorts-video::-webkit-media-controls {
+  display:none !important;
+}
+
+.shorts-wireframe {
+  display: flex;
+  position: absolute;
+  left: -300px;
+  z-index: 1;
+  height: 90vh;
+  bottom: 0;
+}
+
+.insta {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 460px;
+  margin-right: 50px;
+  cursor: pointer;
+  user-select: none;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.insta:hover {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.insta:first-of-type {
+  margin-left: 15vw;
+}
+
+.insta:last-of-type {
+  margin-right: 15vw;
+}
+
+.insta-pic {
+  display: flex;
+  width: 400px;
+  height: 400px;
+}
+
+.insta-bloc {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  background-color: #5b11c2;
+}
+
+.insta-logo {
+  display: flex;
+  height: 40px;
+  width: 40px;
+  margin: auto 8px;
+  border: 2px solid #fff;
+  border-radius: 40px;
+}
+
+.insta-text {
+  display: flex;
+  font-size: 20px;
+  color: #fff;
+  margin: auto 20px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.bottom-title {
+  display: inline;
+  font-size: 60px;
+  font-weight: 500;
+  margin: auto auto 20px;
+  text-align: center;
+}
+
+.bottom-title-color {
+  background-color: #5b11c2;
+  padding: 0 15px 0 5px;
+}
+
+.bottom-text {
+  display: flex;
+  font-size: 22px;
+  font-weight: 300;
+  width: 60vw;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.bottom-bloc {
+  display: flex;
+  width: 60vw;
+  border: 2px solid #fff;
+  margin: auto auto 0;
+  padding: 20px 50px;
+}
+
+.bottom-bloc-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-bloc-column:first-of-type {
+  margin-right: auto;
+}
+
+.bottom-bloc-column:last-of-type {
+  margin-right: 10vw;
+}
+
+.bottom-bloc-title {
+  display: flex;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.bottom-bloc-text {
+  display: flex;
+  font-size: 20px;
+  color: #838383;
+  font-weight: 200;
+  margin: 10px 0;
+}
+
+.bottom-legal {
+  display: flex;
+  width: 60vw;
+  border: 2px solid #fff;
+  border-top: none;
+  margin: 0 auto 40px;
+  padding: 20px 50px;
+}
+
+.bottom-legal-text {
+  display: inline;
+  margin: auto;
+  color: #848484;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.bottom-legal-text-color {
+  color: #5b11c2;
+}
+
+@media only screen and (max-width: 1000px) {
+  .navbar-logo {
+    margin-left: 10vw;
+  }
+
+  .navbar-btn {
+    display: none;
+  }
+
+  .navbar-hamburger {
+    display: flex;
+    margin: auto 10vw auto auto;
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+  }
+
+  .navbar-mobile {
+    display: none;
+    z-index: 200;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 100px;
+  }
+
+  .navbar-btn-mobile {
+    display: flex;
+    margin: 10px auto;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+    transition: 0.3s;
+    text-decoration: none;
+    color: #141414;
+  }
+  
+  .navbar-btn-mobile:hover {
+    color: #5b11c2;
+    transition: 0.3s;
+  }
+  
+  .navbar-btn-mobile:first-of-type {
+    margin-top: 40px;
+  }
+
+  .navbar-btn-mobile:last-of-type {
+    margin-bottom: 40px;
+  }
+  
+  .navbar-btn-mobile-selected {
+    background-color: #141414;
+    border-radius: 24px;
+    color: #fff;
+    padding: 5px 15px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  .navbar-btn-mobile-selected:hover {
+    color: #fff;
+    background-color: #5b11c2;
+    transition: 0.3s;
+  }
+
+  .header-bloc {
+    width: 80vw;
+    margin: auto 10vw;
+  }
+
+  .shorts-actions {
+    margin: auto 10vw 0;
+  }
+
+  .shorts-title {
+    font-size: 34px;
+  }
+
+  .shorts-actions-arrows {
+    margin: auto 20px;
+  }
+
+  .shorts-actions-btn {
+    width: 100%;
+    height: auto;
+  }
+
+  .shorts-video {
+    width: 250px;
+  }
+
+  .shorts-video:first-of-type {
+    margin-left: 10vw;
+  }
+
+  .shorts-video:last-of-type {
+    margin-right: 10vw;
+  }
+
+  .insta:first-of-type {
+    margin-left: 10vw;
+  }
+
+  .insta:last-of-type {
+    margin-right: 10vw;
+  }
+
+  .insta-pic {
+    width: 250px;
+    height: 250px;
+  }
+
+  .shorts-wireframe {
+    left: -700px;
+  }
+
+  .bottom {
+    height: unset;
+  }
+
+  .bottom-title {
+    margin: 40px auto;
+  }
+
+  .bottom-text {
+    width: 80vw;
+  }
+
+  .bottom-bloc {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+
+  .bottom-legal {
+    margin-bottom: 40px;
+  }
+}

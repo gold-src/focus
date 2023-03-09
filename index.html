@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FOCUS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="navbar">
+    <img class="navbar-logo" src="src/focus-logo.svg">
+    <a class="navbar-btn navbar-btn-selected" href="#header">Accueil</a>
+    <a class="navbar-btn" href="#shorts">Réalisations</a>
+    <a class="navbar-btn" href="#insta">Clients</a>
+    <a class="navbar-btn">Recrutement</a>
+    <a class="navbar-hamburger" onclick="displayMenu()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a class="navbar-btn">Contact</a>
+  </div>
+  <div class="navbar-mobile">
+    <a class="navbar-btn-mobile navbar-btn-mobile-selected" href="#header">Accueil</a>
+    <a class="navbar-btn-mobile" href="#shorts">Réalisations</a>
+    <a class="navbar-btn-mobile" href="#insta">Clients</a>
+    <a class="navbar-btn-mobile">Recrutement</a>
+    <a class="navbar-btn-mobile">Contact</a>
+  </div>
+  <div class="header" id="header">
+    <div class="header-bloc">
+      <h1 class="header-title">WE ARE <span class="header-title-color">FOCUS</span></h1>
+      <p class="header-text">Notre expertise des réseaux sociaux nous permet de mettre en avant votre marque de manière efficace, en mettant en œuvre des stratégies qui contribuent à votre croissance.</p>
+      <p class="header-text">Nous utilisons toute notre intelligence et notre esprit créatif pour créer des vidéos publicitaires qui captivent l’audience et qui vous aident à atteindre vos objectifs</p>
+      <a class="header-btn">Contactez-nous</a>
+    </div>
+    <img class="header-wireframe" src="src/wireframe1.svg">
+  </div>
+  <div class="shorts" id="shorts">
+    <div class="shorts-actions">
+      <h2 class="shorts-title">RÉALISATIONS</h2>
+      <div class="shorts-actions-arrows">
+        <svg onclick="shortsLess(0)" class="shorts-actions-btn" xmlns="http://www.w3.org/2000/svg" width="69" height="15" viewBox="0 0 69 15" fill="none">
+          <line y1="-1.5" x2="68" y2="-1.5" transform="matrix(-1 0 0 1 68.9543 14.7798)" stroke="currentColor" stroke-width="3"></line>
+          <line y1="-1.5" x2="23.3775" y2="-1.5" transform="matrix(-0.875369 0.483456 0.483456 0.875369 22.8938 3.09814)" stroke="currentColor" stroke-width="3"></line>
+        </svg>
+        <svg onclick="shortsMore(0)" class="shorts-actions-btn" xmlns="http://www.w3.org/2000/svg" width="69" height="15" viewBox="0 0 69 15" fill="none">
+          <line x1="0.873047" y1="13.0791" x2="68.873" y2="13.0791" stroke="currentColor" stroke-width="3"></line>
+          <line x1="47.6588" y1="1.58441" x2="68.1227" y2="12.8864" stroke="currentColor" stroke-width="3"></line>
+        </svg>
+      </div>
+    </div>
+    <div class="shorts-all">
+      <video class="shorts-video" src="src/shorts/shorts1.mp4" type="video/mp4" controls="" loop="" muted="muted"></video>
+      <video class="shorts-video" src="src/shorts/shorts2.mp4" type="video/mp4" controls="" loop="" muted="muted"></video>
+      <video class="shorts-video" src="src/shorts/shorts3.mp4" type="video/mp4" controls="" loop="" muted="muted"></video>
+      <video class="shorts-video" src="src/shorts/shorts4.mp4" type="video/mp4" controls="" loop="" muted="muted"></video>
+      <video class="shorts-video" src="src/shorts/shorts5.mp4" type="video/mp4" controls="" loop="" muted="muted"></video>
+      <video class="shorts-video" src="src/shorts/shorts6.mp4" type="video/mp4" controls="" loop="" muted="muted"></video>
+      <video class="shorts-video" src="src/shorts/shorts7.mp4" type="video/mp4" controls="" loop="" muted="muted"></video>
+      <video class="shorts-video" src="src/shorts/shorts8.mp4" type="video/mp4" controls="" loop="" muted="muted"></video>
+    </div>
+  </div>
+  <div class="shorts" id="insta">
+    <div class="shorts-actions">
+      <h2 class="shorts-title">MARQUES & COLLAB</h2>
+      <div class="shorts-actions-arrows">
+        <svg onclick="shortsLess(1)" class="shorts-actions-btn" xmlns="http://www.w3.org/2000/svg" width="69" height="15" viewBox="0 0 69 15" fill="none">
+          <line y1="-1.5" x2="68" y2="-1.5" transform="matrix(-1 0 0 1 68.9543 14.7798)" stroke="currentColor" stroke-width="3"></line>
+          <line y1="-1.5" x2="23.3775" y2="-1.5" transform="matrix(-0.875369 0.483456 0.483456 0.875369 22.8938 3.09814)" stroke="currentColor" stroke-width="3"></line>
+        </svg>
+        <svg onclick="shortsMore(1)" class="shorts-actions-btn" xmlns="http://www.w3.org/2000/svg" width="69" height="15" viewBox="0 0 69 15" fill="none">
+          <line x1="0.873047" y1="13.0791" x2="68.873" y2="13.0791" stroke="currentColor" stroke-width="3"></line>
+          <line x1="47.6588" y1="1.58441" x2="68.1227" y2="12.8864" stroke="currentColor" stroke-width="3"></line>
+        </svg>
+      </div>
+    </div>
+    <div class="shorts-all">
+      <div class="insta">
+        <img class="insta-pic" src="src/insta/insta1.png">
+        <div class="insta-bloc">
+          <img class="insta-logo" src="src/insta/insta1-logo.png">
+          <p class="insta-text">Fulllife</p>
+        </div>
+      </div>
+      <div class="insta">
+        <img class="insta-pic" src="src/insta/insta2.gif">
+        <div class="insta-bloc">
+          <img class="insta-logo" src="src/insta/insta1-logo.png">
+          <p class="insta-text">Enjoy Hangover Remedy</p>
+        </div>
+      </div>
+      <div class="insta">
+        <img class="insta-pic" src="src/insta/insta3.png">
+        <div class="insta-bloc">
+          <img class="insta-logo" src="src/insta/insta3-logo.png">
+          <p class="insta-text">Scorpio Music</p>
+        </div>
+      </div>
+      <div class="insta">
+        <img class="insta-pic" src="src/insta/insta4.png">
+        <div class="insta-bloc">
+          <img class="insta-logo" src="src/insta/insta4-logo.png">
+          <p class="insta-text">Unima</p>
+        </div>
+      </div>
+    </div>
+    <img class="shorts-wireframe" src="src/wireframe2.svg">
+  </div>
+  <div class="bottom">
+    <h4 class="bottom-title">WE STAY <span class="bottom-title-color">FOCUS</span></h4>
+    <p class="bottom-text">Nous proposons des vidéos publicitaires et du contenu qui captivent l'attention de votre audience.</p>
+    <p class="bottom-text">Nous travaillons en étroite collaboration avec nos clients pour créer des campagnes qui sont efficaces, qui engagent, et qui vous aident à atteindre vos objectifs de manière rapide et rentable.</p>
+    <div class="bottom-bloc">
+      <div class="bottom-bloc-column">
+        <h5 class="bottom-bloc-title">FOCUS</h5>
+        <p class="bottom-bloc-text">455 promenade des anglais</p>
+        <p class="bottom-bloc-text">06200 Nice</p>
+        <p class="bottom-bloc-text">robin@wearefocus.co</p>
+      </div>
+      <div class="bottom-bloc-column">
+        <h5 class="bottom-bloc-title">À propos</h5>
+        <a class="bottom-bloc-text">Mentions légales</a>
+        <a class="bottom-bloc-text">Politique de confidentialité</a>
+      </div>
+    </div>
+    <div class="bottom-legal">
+      <p class="bottom-legal-text"><span class="bottom-legal-text-color">2023</span> - All rights reserved</p>
+    </div>
+  </div>
+  <script type ="text/javascript" src="shorts.js"></script>
+  <script type ="text/javascript" src="navbar.js"></script>
+</body>
+</html>

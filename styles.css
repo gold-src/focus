@@ -534,7 +534,7 @@ body {
 
   .header-bloc {
     width: 80vw;
-    margin: auto 10vw;
+    margin: 100px auto auto;
   }
 
   .shorts-actions {

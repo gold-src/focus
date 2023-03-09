@@ -146,6 +146,7 @@ body {
   transition: 0.3s;
   text-decoration: none;
   color: #fff;
+  cursor: pointer;
 }
 
 .navbar-btn:hover {
@@ -222,6 +223,14 @@ body {
   margin-top: 20px;
   margin-right: auto;
   font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.header-btn:hover {
+  background-color: #fff;
+  color: #5b11c2;
+  transition: 0.3s;
 }
 
 .header-wireframe {
@@ -480,6 +489,7 @@ body {
 .bottom-legal-text {
   display: inline;
   margin: auto;
+  text-align: center;
   color: #848484;
   font-size: 20px;
   font-weight: 400;

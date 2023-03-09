@@ -173,7 +173,7 @@ body {
 }
 
 .navbar-hamburger-open, .navbar-hamburger-close {
-  display: none;
+  display: hidden;
 }
 
 .navbar-mobile {

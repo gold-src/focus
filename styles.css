@@ -172,7 +172,7 @@ body {
   transition: 0.3s;
 }
 
-.navbar-hamburger {
+.navbar-hamburger-open, .navbar-hamburger-close {
   display: none;
 }
 
@@ -498,12 +498,12 @@ body {
     display: none;
   }
 
-  .navbar-hamburger {
+  .navbar-hamburger-open, .navbar-hamburger-close {
     display: flex;
     margin: auto 10vw auto auto;
     color: #fff;
     text-decoration: none;
-    font-size: 30px;
+    width: 26px;
   }
 
   .navbar-mobile {

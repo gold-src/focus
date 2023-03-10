@@ -605,10 +605,12 @@ body {
 
   .shorts-title {
     font-size: 34px;
+    width: 70vw;
   }
 
   .shorts-actions-arrows {
-    margin: auto 20px;
+    margin: auto;
+    width: 10vw;
   }
 
   .shorts-actions-btn {

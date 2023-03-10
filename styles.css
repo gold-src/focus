@@ -191,6 +191,7 @@ body {
   flex-direction: column;
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
 }
 
 .header-bloc {
@@ -579,9 +580,23 @@ body {
     transition: 0.3s;
   }
 
+  .header {
+    height: unset;
+  }
+
   .header-bloc {
     width: 80vw;
-    margin: 100px auto auto;
+    margin: 100px auto;
+  }
+
+  .header-wireframe {
+    left: 100px;
+    bottom: -120px;
+  }
+
+  .shorts {
+    height: unset;
+    margin: 100px auto;
   }
 
   .shorts-actions {
